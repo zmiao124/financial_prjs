@@ -1,2 +1,2 @@
 # financial_prjs
-study
+financial data 
