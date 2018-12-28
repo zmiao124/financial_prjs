@@ -67,6 +67,8 @@ DOWNLOADER_MIDDLEWARES = {
 ITEM_PIPELINES = {
     #'financial_prj.pipelines.FinancialFilePipline': 300,
     'financial_prj.pipelines.FinancialPrjPipeline': 301,
+    'financial_prj.pipelines.FinancialPrjXlsxPipeline': 302,
+
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
